@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grids",
+  "info": {
+    "singularName": "grid",
+    "pluralName": "grids",
+    "displayName": "Сетки",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "minPlayers": {
+      "type": "integer"
+    },
+    "maxPlayers": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "tes": {
+      "type": "json"
+    },
+    "ttt": {
+      "type": "richtext"
+    }
+  }
+}
